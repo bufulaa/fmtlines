@@ -29,6 +29,7 @@ You'll need to first put your ASCII inside `input.txt`
 
 </div>
 
+<br>
 <div align="center">
 
 <img width="337" height="169" alt="2" src="https://github.com/user-attachments/assets/b70a12bb-4b33-494c-8d55-674812e95fa5" />
@@ -37,6 +38,7 @@ Input how the text per-line is going to be formatted, `%LINE%` here is a paramet
   
 </div>
 
+<br>
 <div align="center">
 <img width="400" height="395" alt="3" src="https://github.com/user-attachments/assets/a36d1e48-8ffc-4337-9afb-4a0ff8925b6c" /><br>
 
