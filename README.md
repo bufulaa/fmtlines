@@ -1,4 +1,4 @@
-# mass-line-format-changer
+# FMTLINES (Mass Line Format Changer)
 Allow you to mass change the format for each lines using C++.
 
 ## 📦 Requirements
