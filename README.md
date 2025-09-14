@@ -25,7 +25,7 @@ g++ main.cpp -o app
 <div align="center">
 <img width="360" height="291" alt="1" src="https://github.com/user-attachments/assets/ab125571-c861-4dc6-b2d5-ec2b09dd70d7" /><br>
 
-You'll need to first put your ASCII inside `input.txt`
+You'll first need to put your ASCII inside `input.txt`
 
 </div>
 
