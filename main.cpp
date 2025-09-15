@@ -76,7 +76,7 @@ int main() {
 
     cout
     << "Have you put your text inside " + inputfile << "?"
-    << "\n\nDone? (y/exit) ";
+    << "\n\nYes I have (y/exit) ";
 
     std::getline(cin, response);
 
@@ -86,4 +86,5 @@ int main() {
     asciiFlowToPrints();
     return 0;
 }
+
 
