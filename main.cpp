@@ -15,18 +15,12 @@ inputfile = "input.txt",
 outputfile = "output.txt";
 
 void backToMain(std::string msg) {
-
-    cout
-    << msg
-    << "\n\n( press any key to continue )";
-
+    cout << msg << "\n\n( press any key to continue )";
     _getch();
     main();
-
 }
 
 void asciiFlowToPrints() {
-    
     system("cls");
     
     std::string
@@ -72,30 +66,24 @@ void asciiFlowToPrints() {
 }
 
 int main() {
-
     SetConsoleOutputCP(CP_UTF8);
-
-    if (!std::filesystem::exists(inputfile)) {
-        std::ofstream text(inputfile);
-        text.close();
-    }
+    
+    if (!std::filesystem::exists(inputfile)) { std::ofstream text(inputfile); }
     
     system("cls");
         
     std::string response;
 
     cout
-    << "Paste text to " + inputfile
+    << "Have you put your text inside " + inputfile << "?"
     << "\n\nDone? (y/exit) ";
 
     std::getline(cin, response);
 
     if (response == "exit") { exit(0); return 0; }
     if (response != "y" ) { main(); return 0; }
-
+    
     asciiFlowToPrints();
-
     return 0;
-
-
 }
+
