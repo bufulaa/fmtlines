@@ -30,7 +30,7 @@ void asciiFlowToPrints() {
     system("cls");
     
     std::string
-    placeholder = "\%LINE\%",
+    placeholder = "\%LINE\%\n",
     format_const = "<< \"" + placeholder + "\"",
     format = format_const,
     format_input,
@@ -96,5 +96,6 @@ int main() {
     asciiFlowToPrints();
 
     return 0;
+
 
 }
