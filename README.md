@@ -8,7 +8,7 @@ Allow you to mass change the format for each lines using C++.
 ## 🔧 Installation
 1. Clone this repo or Download as zip (You'll only need `main.cpp`)
 ```
-git clone https://github.com/bufulaa/mass-line-format-changer.git
+git clone https://github.com/mabufu172/fmtlines.git
 ```
 
 2. Compile `main.cpp`, if you're using `g++`:
